@@ -468,17 +468,16 @@ h5, h6          { font-weight: bolder }
 }
 
 .content{
-    color: #252525;
-    font-family: "raleway-regular", arial;
-    font-size: 15px;
-    line-height: 22px;
-    padding: 20px 20px;
-    background: #fff;
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+	color: #252525;
+	font-family: "raleway-regular", arial;
+	font-size: 15px;
+	line-height: 22px;
+	padding: 20px 20px;
+	background: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .content p{
