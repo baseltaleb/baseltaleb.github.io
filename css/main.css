@@ -113,22 +113,6 @@ h5, h6          { font-weight: bolder }
 
 
 
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 0;
-	height: auto;
-	background: #FFFFFF;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #FFFFFF;
-	bottom: auto;
-}
 
 
 
@@ -261,6 +245,7 @@ h5, h6          { font-weight: bolder }
 
 }
 
+
 #menu_icon,
 .close_menu{
     float: right;
@@ -388,6 +373,24 @@ h5, h6          { font-weight: bolder }
     display: block;
     position: relative;
 	background-color: #bedeeb;
+}
+
+
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0;
+	height: auto;
+	background: #FFFFFF;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	bottom: auto;
 }
 
 .m_space{
