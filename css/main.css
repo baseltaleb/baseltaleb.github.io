@@ -113,7 +113,22 @@ h5, h6          { font-weight: bolder }
 
 
 
-
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0;
+	height: auto;
+	background: #FFFFFF;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	bottom: auto;
+}
 
 
 
@@ -278,7 +293,7 @@ h5, h6          { font-weight: bolder }
     box-sizing: border-box;
     position: relative;
     z-index: 55;
-    background: #bedeeb;
+    background: #fff;
     clear: both;
 }
 
@@ -300,7 +315,7 @@ h5, h6          { font-weight: bolder }
 
 .main .work .media{
     width: 100%;
-    vertical-align: middle;
+    vertical-align: middle; 
 }
 
 .main .work .caption{
@@ -366,7 +381,9 @@ h5, h6          { font-weight: bolder }
 }
 .m_title{
 	width: 100%;
-	height: 35px;
+	height: 35px; 
+	line-height: 0px;
+	padding-left: 20px;
 	overflow: hidden;
     display: block;
     position: relative;
@@ -455,7 +472,7 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-regular", arial;
     font-size: 15px;
     line-height: 22px;
-    padding: 60px 30px;
+    padding: 20px 20px;
     background: #fff;
 
     -webkit-box-sizing: border-box;
@@ -639,4 +656,7 @@ body{
      .main .work{
         width: 100%;
     }
+}
+.media {
+	background: #FFFFFF;
 }
